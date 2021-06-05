@@ -50,9 +50,9 @@ productos_mapeados = list(map(lambda producto: producto[1], productos3))
 print('productos mapeados ', productos_mapeados)
 
 # Comprimidos filtrados
-prod_filtrados_comprimidos = [item for item in productos3 if item[1] >= 100]
+prod_filtrados_comprimidos = [item for item in productos3 if item[1] >= 100] # el primer item es lo que devuelve, primero hacer el for luego el if y lo devuelve en el primer item
 print(prod_filtrados_comprimidos)
 
 # Comprimidos mapeados
-prod_mapeados_comprimidos = [item[1] for item in productos3]
+prod_mapeados_comprimidos = [item[1] for item in productos3] # hace el for y lo guarda en el item
 print(prod_mapeados_comprimidos)
